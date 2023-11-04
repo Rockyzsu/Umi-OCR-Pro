@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://github.com/hiroi-sora/Umi-OCR">
-    <img width="200" height="128" src="https://tupian.li/images/2022/10/27/icon---256.png" alt="Umi-OCR">
-  </a>
-</p>
 
 <h1 align="center">Umi-OCR 文字识别工具</h1>
 
@@ -49,6 +44,19 @@
   </h3>
 </div>
 <br>
+## 基于原项目修改：
+如果使用的python按照不了psutil，可以使用wheel进行安装。 
+
+```
+error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+```
+
+whl文件放在dependence_package里面
+
+```
+pip install psutil-5.9.6-cp37-abi3-win_amd64.whl
+```
+
 
 - **免费**：本项目所有代码开源，完全免费。
 - **方便**：解压即用，离线运行，无需网络。
