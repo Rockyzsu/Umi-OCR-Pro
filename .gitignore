@@ -1,9 +1,5 @@
-*
-*/
-!docs
-!ocr
-!PaddleOCR-json
-!ui
-!utils
-!main.py
+dependence_package/
+.idea/
+Umi-OCR_config.json
+asset/
 **/__pycache__/
